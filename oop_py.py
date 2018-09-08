@@ -10,9 +10,23 @@ class Dog:
         self.name = name
         self.age = age
 
+# Define method in class
+    def bark(self):
+        print("Woof, woof!")
+
+    def doginfo(self):
+        print(self.name + " is " + str(self.age) + " year(s) old")
+        print(self.bark())
+
 
 # Instantiate an object
 spotty = Dog("Spotty", 3)
+tunker = Dog("Tunker", 10)
+harrier = Dog("Harrier", 1)
+# spotty.bark()
 # print(spotty.name)
 # print(spotty.age)
-print(spotty.name + " is " + str(spotty.age) + " year(s) old")
+
+spotty.doginfo()
+tunker.doginfo()
+harrier.doginfo()
