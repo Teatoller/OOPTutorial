@@ -18,14 +18,20 @@ class Dog:
         print(self.name + " is " + str(self.age) + " year(s) old")
         print(self.bark())
 
+    def birthday(self):
+        self.age += 1
+
 
 # Instantiate an object
 spotty = Dog("Spotty", 3)
 tunker = Dog("Tunker", 10)
 harrier = Dog("Harrier", 1)
+
 # spotty.bark()
 # print(spotty.name)
-# print(spotty.age)
+
+spotty.birthday()
+tunker.birthday()
 
 spotty.doginfo()
 tunker.doginfo()
