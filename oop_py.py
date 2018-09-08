@@ -13,5 +13,6 @@ class Dog:
 
 # Instantiate an object
 spotty = Dog("Spotty", 3)
-print(spotty.name)
-print(spotty.age)
+# print(spotty.name)
+# print(spotty.age)
+print(spotty.name + " is " + str(spotty.age) + " year(s) old")
