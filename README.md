@@ -1,7 +1,8 @@
 # README.md
 Python Object-Oriented Programming (OOP):
 
-Tutorial:
+Tutorial
+
 Explore:
 - classes, 
 - objects, 
