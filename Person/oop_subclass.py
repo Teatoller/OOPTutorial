@@ -1,5 +1,5 @@
 # oop_subclass.py
-class SchoolMember(object):
+class SchoolMember:
     """docstring for SchoolMember"""
 
     def __init__(self, name, age):
